@@ -48,7 +48,7 @@ export const Carousel = ({ onLogout }) => {
 
       <Slider {...settings}>
         <div className="imageWrapper">
-          <img src={require("./assets/ab1.png")} alt="Slide 1" />
+          <img src={require("./assets/ab5.png")} alt="Slide 1" />
         </div>
         <div className="imageWrapper">
           <img src={require("./assets/ab2.png")} alt="Slide 2" />
@@ -63,7 +63,7 @@ export const Carousel = ({ onLogout }) => {
           <img src={require("./assets/ab5.png")} alt="Slide 4" />
         </div>
         <div className="imageWrapper">
-          <img src={require("./assets/ab6.png")} alt="Slide 4" />
+          <img src={require("./assets/ab1.png")} alt="Slide 4" />
         </div>
       </Slider>
     </div>
