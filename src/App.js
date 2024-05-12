@@ -20,11 +20,7 @@ function App() {
   return (
     <div className="App">
       {loggedIn ? (
-        fileUploaded ? (
-          <Carousel onLogout={handleLogout} />
-        ) : (
-          <ImageUploader onFileUploaded={setFileUploaded} />
-        )
+        <Carousel onLogout={handleLogout} />
       ) : (
         <Login onLogin={setLoggedIn} />
       )}
