@@ -37,6 +37,9 @@ export const Carousel = ({ onLogout }) => {
   return (
     <div className="slider-container">
       <div className="logoutWrapper">
+        <h2 style={{ paddingLeft: 50 }}>
+          Japan Future Mobility and Manufacturing Journal
+        </h2>
         <Button
           variant="outline-light"
           size="md"
@@ -45,10 +48,9 @@ export const Carousel = ({ onLogout }) => {
           Logout
         </Button>
       </div>
-
       <Slider {...settings}>
         <div className="imageWrapper">
-          <img src={require("./assets/ab5.png")} alt="Slide 1" />
+          <img src={require("./assets/ab6.png")} alt="Slide 1" />
         </div>
         <div className="imageWrapper">
           <img src={require("./assets/ab2.png")} alt="Slide 2" />
